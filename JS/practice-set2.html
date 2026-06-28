@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set 2</title>
+
+    <script>
+
+        // Even or Odd
+
+        let number = 25;
+
+        if (number % 2 == 0) {
+            console.log("25 is odd");
+        } else {
+            console.log("24 is even");
+        }
+
+        // Positive, Negative or Zero
+
+        let num1 = -10
+
+        if (num1 < 0) {
+            console.log("Negative Number");
+        } else if (num1 > 0) {
+            console.log("Positive Number");
+
+        } else {
+            console.log("Zero");
+        }
+
+        // Largest Number
+
+        let a = 15;
+        let b = 30;
+
+        if (a > b) {
+            console.log(a + " is greater");
+        } else {
+            console.log(b + " is greater");
+        }
+
+        // Simple Calculator
+
+        let numA = 20;
+        let numB = 5;
+        let operator = "*";
+
+        switch (operator) {
+            case "+":
+                console.log(numA + numB);
+                break
+            case "-":
+                console.log(numA - numB);
+                break
+            case "*":
+                console.log(numA * numB);
+                break
+            case "/":
+                console.log(numA / numB);
+                break
+            case "%":
+                console.log(numA % numB);
+        }
+
+        // Traffic Light
+
+        let color = "Red";
+
+        switch (color) {
+            case "Red":
+                console.log("Ruko Jra! Sabar kro");
+                break
+            case "Yellow":
+                console.log("A Gadi start kr");
+                break
+            case "Green":
+                console.log("Chala ja bs#k");
+                break
+        }
+
+        // Login Validation
+
+        let username = "bharat";
+        let password = "1234";
+        let isBlocked = false;
+
+        if ((username === "bharat" && password === "1234") != isBlocked) {
+            console.log("Login Successful");
+        } else {
+            console.log("Login failed");
+        }
+
+        // Discount System
+
+        let amount = 3200;
+
+        if (amount > 5000) {
+            console.log("20% Discount");
+        } else if (amount > 3000) {
+            console.log("15% Discount");
+        } else if (amount > 2000) {
+            console.log("10% Discount");
+        } else {
+            console.log("No Discount");
+        }
+
+        // Month Name
+
+        let month = 8;
+
+        switch (month) {
+            case 1:
+                console.log("January");
+                break
+            case 2:
+                console.log("February");
+                break
+            case 3:
+                console.log("March");
+                break
+            case 4:
+                console.log("April");
+                break
+            case 5:
+                console.log("May");
+                break
+            case 6:
+                console.log("June");
+                break
+            case 7:
+                console.log("July");
+                break
+            case 8:
+                console.log("August");
+                break
+            case 9:
+                console.log("September");
+                break
+            case 10:
+                console.log("Octomber");
+                break
+            case 11:
+                console.log("November");
+                break
+            case 12:
+                console.log("December");
+                break
+        }
+
+        // Ternary Operator
+
+        let age = 17;
+        result = (age < 18) ? "Minor" : "Adult";
+        console.log(result);
+
+        // Type Check
+        let name = "Bharat";
+        let myAge = 25;
+        let isStudent = false;
+
+        console.log(typeof name);
+        console.log(typeof myAge);
+        console.log(typeof isStudent);
+    </script>
+
+</head>
+
+<body>
+    <h1>Practice Set 2</h1>
+</body>
+
+</html>
