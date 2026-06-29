@@ -6,29 +6,43 @@
     <title>Type Operator</title>
     <script>
 
-        let name = "nirmit";
-        console.log(typeof name);
+        // let name = "nirmit";
+        // console.log(typeof name);
 
-        let age = 18;
-        console.log(typeof age);
+        // let age = 18;
+        // console.log(typeof age);
 
-        let isStudent = true;
-        console.log(typeof isStudent);
+        // let isStudent = true;
+        // console.log(typeof isStudent);
 
-        let num = NaN;
-        console.log(typeof num);
+        // let num = NaN;
+        // console.log(typeof num);
 
-        let value = null;
-        console.log(typeof value);
+        // let value = null;
+        // console.log(typeof value);
 
-        let list = [];
-        console.log(typeof list);
+        // let list = [];
+        // console.log(typeof list);
 
-        let data = function(){};
+        // let data = function(){};
+        // console.log(typeof data);
+
+        let data = {name:'sandip', age:21, email:'sandip@demo.com'};
+        console.log(data);
         console.log(typeof data);
+        console.log("age" in data);
+        console.log("subject" in data);
+
+        let info = [];
+        console.log(info instanceof Array);
+        console.log(info instanceof Object);
+        console.log(info instanceof Date);
+
+        info = new Date;
+        console.log(info instanceof Date);
     </script>
 </head>
 <body>
-    
+    <h1>Type Operator</h1>
 </body>
 </html>
