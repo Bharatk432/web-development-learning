@@ -40,6 +40,29 @@
         //     console.log(star);
         // }
 
+        // for(let row = 5; row >= 1; row--){
+        //    let star = "";
+        //     for(let col = row; col >= 1; col--){
+        //         star += "*";
+        //     }
+        //     console.log(star);
+        // }
+
+        for(let row = 1; row <= 5; row++){
+            let result = "";
+            for (let space = 1; space <= 5 - row; space++){
+                result += " ";
+            }
+            for (let star = 1; star <= row; star++){
+                result += "*";
+            }
+            console.log(result);
+        }
+
+        
+        for (let num = 1; num <= 20; num++){
+            console.log(num);
+        }
         
     </script>
 </head>
