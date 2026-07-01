@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Loop</title>
+    <script>
+        // let i = 0;
+        // for (i; i <= 10; ++i) {
+        //     console.log(i);
+        // }
+
+        // let j = 0;
+
+        // for (let i = 0; i <= 10; i++){
+        //     for (let j = 0; j <= 5; j++){
+        //         console.log(j);
+        //     }
+        // console.log("_____");
+        // }
+
+        // for(j = 1; j <= 5; j++){
+        //     star = "";
+        //     for (k = 1; k <= 5; k++){
+        //         star += "*";
+
+        //     }
+        //     console.log(star);
+        // }
+
+        // let star = "";
+        // for (row = 1; row <= 5; row++) {
+
+        //     for (col = row; col <= row; col++) {
+        //         star += "*";
+        //     }
+
+
+        //     console.log(star);
+        // }
+
+        // for(let row = 5; row >= 1; row--){
+        //    let star = "";
+        //     for(let col = row; col >= 1; col--){
+        //         star += "*";
+        //     }
+        //     console.log(star);
+        // }
+
+        for(let row = 1; row <= 5; row++){
+            let result = "";
+            for (let space = 1; space <= 5 - row; space++){
+                result += " ";
+            }
+            for (let star = 1; star <= row; star++){
+                result += "*";
+            }
+            console.log(result);
+        }
+
+        
+        for (let num = 1; num <= 20; num++){
+            console.log(num);
+        }
+        
+    </script>
+</head>
+
+<body>
+    <h1>For Loop</h1>
+</body>
+
+</html>

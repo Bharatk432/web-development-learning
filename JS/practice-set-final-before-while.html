@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice set 3</title>
+    <script>
+
+        // Section A - Conditions
+        // Voting System
+
+        let age = 20;
+        let hasVoterId = true;
+
+        if (age >= 18 && hasVoterId) {
+            console.log("Eligible for Voting");
+        }
+
+        // Login System
+
+        let userName = "bharat";
+        let password = "12345";
+        let isBlocked = false;
+
+        if ((userName === "bharat" && password === "12345") != isBlocked) {
+            console.log("Login Successful");
+        }
+
+        // Grade System
+        let marks = 59;
+        if (marks >= 90) {
+            console.log("Grade A");
+        } else if (marks >= 75) {
+            console.log("Grade B");
+        } else if (marks >= 60) {
+            console.log("Grade C");
+        } else if (marks >= 35) {
+            console.log("Grade D");
+        } else {
+            console.log("Fail");
+        }
+
+        // Day Name
+
+        let day = 6;
+
+        switch (day) {
+            case 1:
+                console.log("Monday");
+                break
+            case 2:
+                console.log("Tuesday");
+                break
+            case 3:
+                console.log("Wednesday");
+                break
+            case 4:
+                console.log("Thursday");
+                break
+            case 5:
+                console.log("Friday");
+                break
+            case 6:
+                console.log("Saturady");
+                break
+            case 7:
+                console.log("Sunday");
+                break
+            default:
+                console.log("Wrong Day Number");
+
+        }
+
+        // Calculator
+
+        let operator = "/"
+        let a = 15;
+        let b = 5;
+
+        switch (operator) {
+            case "+":
+                console.log(a + b);
+                break
+            case "-":
+                console.log(a - b);
+                break
+            case "*":
+                console.log(a * b);
+                break
+            case "/":
+                console.log(a / b);
+                break
+            case "%":
+                console.log(a % b);
+                break
+            default:
+                console.log("No Any Mathematical Operation");
+        }
+
+        // Section B - Loops
+        // Q6
+
+        for (let i = 1; i <= 100; i++) {
+            console.log(i);
+        }
+
+        // Q7
+        for (let j = 100; j >= 1; j--) {
+            console.log(j);
+        }
+
+        // Q8
+
+        for (let k = 1; k <= 100; k++) {
+            if (k % 2 === 0) {
+                console.log(k);
+            }
+        }
+
+        // Q9
+        for (let l = 2; l <= 100; l += 2) {
+            console.log(l);
+        }
+
+        // Q10
+        for (let m = 1; m <= 100; m++) {
+            if (m % 2 != 0) {
+                console.log(m)
+            }
+        }
+
+        // Q11
+        for (let n = 1; n <= 100; n++) {
+            if (n % 5 === 0) {
+                console.log(n);
+            }
+        }
+
+        for (let p = 5; p <= 100; p += 5) {
+            console.log(p);
+        }
+
+        // Q12 
+        for (let q = 1; q <= 100; q++) {
+            if (q % 7 === 0) {
+                console.log(q);
+            }
+        }
+
+        // Q13
+        for (let r = 1; r <= 100; r++) {
+            if (r % 3 === 0 && r % 5 === 0) {
+                console.log(r);
+            }
+        }
+
+        // Q14
+        for (let s = 1; s <= 100; s++) {
+            if (s % 4 === 0 && s % 8 != 0) {
+                console.log(s);
+            }
+        }
+
+        // Q15 
+        let count = 0;
+        for (let t = 1; t <= 100; t++) {
+            count += 1;
+        }
+        console.log(count);
+
+        // Section C - Patterns
+        // Q16
+
+        let stars = "";
+        for (let star = 1; star <= 5; star++) {
+            stars += "*";
+            console.log(stars);
+        }
+
+        // Q17
+        for (let row = 5; row >= 1; row--) {
+            let star = "";
+            for (let col = row; col >= 1; col--) {
+                star += "*";
+            }
+            console.log(star);
+        }
+
+        // Q18
+        for (let x = 1; x <= 5; x++) {
+            let tare = "";
+            for (let y = 1; y <= 5; y++) {
+                tare += "*";
+            }
+            console.log(tare);
+        }
+
+        // Q19
+        for (let num1 = 1; num1 <= 5; num1++) {
+            let finalRows = "";
+            for (let num2 = 1; num2 <= (5 - num1); num2++) {
+                finalRows += " ";
+            }
+
+            for (let num3 = 1; num3 <= num1; num3++) {
+                finalRows += "*";
+            }
+            console.log(finalRows);
+        }
+
+    </script>
+</head>
+
+<body>
+    <h1>Practice set 3</h1>
+</body>
+
+</html>
