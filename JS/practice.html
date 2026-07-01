@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice</title>
-    <script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practice</title>
+        <script>
 
         // Variable
 
@@ -25,7 +25,7 @@
             let x = 80;
             let y = 10;
 
-            z = x + y;
+            let z = x + y;
             console.log(z);
 
             console.log(z - (x / 4));
@@ -36,12 +36,49 @@
             }else{
                 console.log("Invalid User");
             }
+
+            if (name === "Bharat" || userName === "Bharat"){
+                console.log("Right");
+            }else{
+                console.log("Wrong");
+            }
+
+            console.log(x += y);
+            console.log(y += x);
         }
 
+        let a = 10;
+
+        console.log(a++);
+        console.log(++a);
+        console.log(a);
+
+        let fruit = "Mango";
+        switch(fruit){
+            case "Apple" :
+                console.log("Red");
+                braek
+            case "Mango":
+                console.log("Yellow");
+                break
+            case "Grapes":
+                console.log("Green");
+                break
+
+            defauit:
+                console.log("Not Found");
+            }
+
+        let score = 56;
+        let grade = "";
+
+        grade = score >= 90 ? "A" : score >= 70 ? "B" : score >= 50 ? "C" : "D";
+        console.log(grade);
+
     </script>
-</head>
-<body>
-    <h1>Practice</h1>
-    <button onclick="oprators()">result</button>
-</body>
+    </head>
+    <body>
+        <h1>Practice</h1>
+        <button onclick="oprators()">result</button>
+    </body>
 </html>

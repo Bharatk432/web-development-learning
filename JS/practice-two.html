@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice two</title>
+    <script>
+
+        let a = 15;
+        let b = 15;
+
+        function add() {
+            console.log(a + b);
+        }
+
+        let age = 30;
+
+        if (age >= 18) {
+            console.log("You are eligible for vote");
+        } else {
+            console.log("You are not eligible for vote");
+        }
+
+        let userName = "bharat";
+        let password = "12345";
+
+        if (userName === "bharat" && password === "12345") {
+            console.log("login success");
+        } else {
+            console.log("login failed");
+        }
+
+        let marks = 82;
+        let Grade = "";
+
+        Grade = (marks >= 90) ? "A" : (marks >= 70) ? "B" : (marks >= 50) ? "C" : "D";
+        console.log("Grade = " + Grade);
+
+        let day = 6;
+
+        switch (day) {
+            case 1:
+                console.log("Monday");
+                break
+            case 2:
+                console.log("Thuesday");
+                break
+            case 3:
+                console.log("Wednesday");
+                break
+            case 4:
+                console.log("Thursday");
+                break
+            case 5:
+                console.log("Friday");
+                break
+            case 6:
+                console.log("Saturday");
+                break
+            case 7:
+                console.log("Sunday");
+                break
+            default:
+                console.log("Invalid Day");
+        }
+
+        let p = 5;
+
+        console.log(p++);
+        console.log(p)
+        console.log(++p);
+        console.log(p);
+
+        let name = "";
+        let city = "Nagpur";
+
+        console.log(name || city);
+
+        let login = false;
+        console.log(!login);
+
+        let x = 10;
+        let y = 20;
+        console.log(x > y ? "x is Bigger" : "y is Bigger");
+
+        let pin = 1234;
+        let enterPin = 1234;
+        let balance = 5000;
+        let withdraw = 2000;
+
+        if (enterPin != 1234) {
+            console.log("Invalid pin");
+        } else if (withdraw > balance) {
+            console.log("Insufficient balance");
+        } else {
+            console.log("Transaction Successful\nRemaining Balance = 3000");
+        }
+
+        let mark = 75;
+        let attendance = true;
+
+        if ((marks >= 70 && attendance) || marks >= 90) {
+            console.log("Pass");
+        } else {
+            console.log("Fail");
+        }
+
+        console.log(typeof null);
+        console.log(typeof undefined);
+        console.log(typeof {});
+        console.log(typeof []);
+        console.log(typeof function () { });
+
+    </script>
+</head>
+
+<body>
+    <h1>Practice Two</h1>
+    <button onclick="add()">add</button>
+</body>
+
+</html>
